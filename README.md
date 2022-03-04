@@ -9,7 +9,7 @@ O Projeto Plus UI Camunda Modeler são customizações de melhorias da Interface
 
   Plugin que personaliza a seleção de data para o data de prazo das tarefas e da data de follow up, sem precisar conhecer a fundo a EL Expression.
 
-  ![alt text for screen readers](https://github.com/projeto-cade-unb/plus-ui-camunda-modeler/blob/main/documentation/images/custom-data-in-action.png "Text to show on mouseover")
+  ![Custom Date in Action](https://github.com/projeto-cade-unb/plus-ui-camunda-modeler/blob/main/documentation/images/custom-data-in-action.png "Custom Date in Action")
 
 * html-editor
 
