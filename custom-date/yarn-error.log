@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENFILE: file table overflow, copyfile '/Users/roberson/Library/Caches/Yarn/v6/npm-caniuse-lite-1.0.30001248-26ab45e340f155ea5da2920dadb76a533cb8ebce-integrity/node_modules/caniuse-lite/data/features/webauthn.js' -> '/Users/roberson/Documents/desenvolvimento/desktop/cade/camunda-modeler/resources/plugins/custom-date/node_modules/caniuse-lite/data/features/webauthn.js'
+
+npm manifest: 
+  {
+    "name": "custom-date",
+    "version": "0.1.0",
+    "description": "Elemento date para facilitar inclusão de data",
+    "main": "index.js",
+    "scripts": {
+      "all": "run-s bundle",
+      "bundle": "webpack",
+      "dev": "webpack -w",
+      "prepublishOnly": "run-s bundle"
+    },
+    "repository": {
+      "type": "git"
+    },
+    "keywords": [
+      "camunda",
+      "modeler",
+      "plugin"
+    ],
+    "author": "Roberson Pinheiro",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.13.16",
+      "@babel/preset-react": "^7.13.13",
+      "babel-loader": "^8.2.2",
+      "camunda-modeler-plugin-helpers": "^3.4.0-alpha.0",
+      "eslint-plugin-bpmn-io": "^0.12.0",
+      "npm-run-all": "^4.1.5",
+      "webpack": "^4.39.2",
+      "webpack-cli": "^3.3.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

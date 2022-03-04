@@ -1,0 +1,7 @@
+.bpp-properties-panel input {
+  width: 100%;
+}
+
+.bpp-properties-panel [type=checkbox] {
+  width: auto;
+}
